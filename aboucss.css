@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    .container1{
+        display: flex;
+       flex-wrap: wrap;
+       
+    }
+    
+    .container{
+        
+        height: 100vh;
+        width: 100%;
+        background-image: url("background.jpg");
+        background-position: center;
+        background-size: cover ;
+        font-family: Arial, Helvetica, sans-serif;
+     
+    }
+    .nav-bar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 80px;
+    }
+    .nav-bar .title{
+    
+        color: #fff;
+        font-size: 67px;
+    }
+    .nav-bar p{
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 50px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    span{
+        color: crimson;
+    }
+    
+    .menu li{
+        list-style: none;
+        display: inline-block;
+       
+    
+    
+    }
+    .menu li a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 27px;
+        margin-left: 25px;
+        transition: .4s ease;
+    }
+    .menu li a:hover{
+        color : crimson;
+        padding: 5px 20px;
+        border : 2px solid #fff;
+    }
+   
+    .description {
+        padding: 20px;
+    }
+    
+    .description h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    .description p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    button {
+        background-color: crimson;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        
+    }
+    /* About page styling */
+.about {
+    padding: 50px;
+    color: #fff;
+    position: relative;
+    bottom: 30px;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #fff;
+    
+}
+.image img:nth-child(1) {
+    width: 210px;
+    height: auto;
+    position:relative;
+    bottom: 10px;
+    left: 40px;
+}
+.image img:nth-child(2) {
+    width: 230px;
+    height: auto;
+    position:relative;
+    bottom: 25px;
+    left: 75px;
+}
+.image img:nth-child(3) {
+    width: 230px;
+    height: auto;
+    position:relative;
+    bottom: 25px;
+    left: 125px;
+}
+.image img:nth-child(4) {
+    width: 220px;
+    height: auto;
+    position:relative;
+    bottom: 10px;
+    left: 225px;
+}
+.image img {
+
+    transition: .4s ease;
+}
+.image img:hover {
+
+    padding: 5px 20px;
+    border : 2px solid #fff;
+}
+
+  
+    

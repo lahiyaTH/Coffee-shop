@@ -1,0 +1,56 @@
+/* Contact section styling */
+.contact .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding: 20px;
+}
+
+.contact .column {
+    flex: 1;
+    padding: 20px;
+}
+
+.contact .column:first-child {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contact form {
+    margin-top: 20px;
+}
+
+.contact input[type="text"],
+.contact select,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6f4e37;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #56392d;
+}
+
+.contact h2 {
+    font-size: 30px;
+    color: #333;
+}
+
+.contact p {
+    font-size: 20px;
+    color: #666;
+}

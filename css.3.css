@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+.nav-bar .title{
+
+    color: #fff;
+    font-size: 67px;
+}
+.nav-bar p{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+span{
+    color: crimson;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    left: 250px;
+    
+
+}
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 27px;
+    margin-left: 25px;
+    transition: .4s ease;
+}
+.menu li a:hover{
+    color : crimson;
+    padding: 5px 20px;
+    border : 2px solid #fff;
+}
+
+    .container{
+        height: 100vh;
+       
+        display: flex;
+       flex-wrap: wrap;
+        width: 100%;
+        background-image: url("background.jpg");
+        background-position: center;
+        background-size: cover ;
+        font-family: Arial, Helvetica, sans-serif;
+     
+    }
+    
+    
+    .description {
+        padding: 20px;
+    }
+    
+    .description h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    .description p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    button {
+        background-color: crimson;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        
+    }
+    
+   
+    
+  .contact { 
+    position: relative;
+    bottom: 50px;
+   
+
+
+
+  }
+
+.contact .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding: 20px;
+}
+
+.contact .column {
+    flex: 1;
+    padding: 20px;
+}
+
+.contact .column:first-child {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contact form {
+    margin-top: 20px;
+}
+
+.contact input[type="text"],
+.contact select,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6f4e37;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #080707;
+}
+
+.contact h2 {
+    font-size: 30px;
+    color: #ffb4b4;
+}
+
+.contact p {
+    font-size: 20px;
+    color: #666;
+}
+.contact label {
+    color: #fcfbfb;
+}
